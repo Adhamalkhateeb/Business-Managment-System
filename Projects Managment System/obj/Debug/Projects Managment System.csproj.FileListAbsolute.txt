@@ -1,0 +1,79 @@
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects Managment System.csproj.AssemblyReference.cache
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects_Managment_System.frmMain.resources
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects_Managment_System.Properties.Resources.resources
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects Managment System.csproj.GenerateResource.cache
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects Managment System.csproj.CoreCompileInputs.cache
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Projects Managment System.exe.config
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Projects Managment System.exe
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Projects Managment System.pdb
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Newtonsoft.Json.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\QRCoder.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\SiticoneNetFrameworkUI.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Buffers.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Collections.Immutable.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.IO.Pipelines.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Memory.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Numerics.Vectors.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Text.Encodings.Web.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.ValueTuple.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Newtonsoft.Json.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Buffers.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Collections.Immutable.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.IO.Pipelines.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Memory.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Numerics.Vectors.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Text.Encodings.Web.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\System.ValueTuple.xml
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects.2E5ED9F2.Up2Date
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects Managment System.exe
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects Managment System.pdb
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects_Managment_System.frmDepartments.resources
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Project Business Library.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Project Data Layer.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Project Business Library.pdb
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Project Data Layer.pdb
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Project Data Layer.dll.config
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\App.config
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects_Managment_System.frmAddEditDepartments.resources
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Data.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Grid.Base.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Grid.Windows.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.GridCommon.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Licensing.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SfDataGrid.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SfInput.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SfListView.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Shared.Windows.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Tools.Base.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Tools.Windows.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.DataSource.WinForms.dll
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Data.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.GridCommon.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SfDataGrid.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SfInput.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SfListView.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Tools.Windows.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.DataSource.WinForms.xml
+C:\Adham\Adham Managment System\Projects Managment System\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects_Managment_System.frmJobsList.resources
+C:\Adham\Adham Managment System\Projects Managment System\obj\Debug\Projects_Managment_System.frmAdd_Edit_Job.resources

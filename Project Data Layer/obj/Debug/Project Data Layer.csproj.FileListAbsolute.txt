@@ -1,0 +1,8 @@
+C:\Adham\Adham Managment System\Project Data Layer\bin\Debug\Project Data Layer.dll.config
+C:\Adham\Adham Managment System\Project Data Layer\bin\Debug\Project Data Layer.dll
+C:\Adham\Adham Managment System\Project Data Layer\bin\Debug\Project Data Layer.pdb
+C:\Adham\Adham Managment System\Project Data Layer\obj\Debug\Project Data Layer.csproj.AssemblyReference.cache
+C:\Adham\Adham Managment System\Project Data Layer\obj\Debug\Project Data Layer.csproj.CoreCompileInputs.cache
+C:\Adham\Adham Managment System\Project Data Layer\obj\Debug\Project Data Layer.dll
+C:\Adham\Adham Managment System\Project Data Layer\obj\Debug\Project Data Layer.pdb
+C:\Adham\Adham Managment System\Project Data Layer\bin\Debug\App.config

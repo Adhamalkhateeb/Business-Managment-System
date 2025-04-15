@@ -1,0 +1,11 @@
+C:\Adham\Adham Managment System\Project Business Library\bin\Debug\Project Business Library.dll
+C:\Adham\Adham Managment System\Project Business Library\bin\Debug\Project Business Library.pdb
+C:\Adham\Adham Managment System\Project Business Library\bin\Debug\Project Data Layer.dll
+C:\Adham\Adham Managment System\Project Business Library\bin\Debug\Project Data Layer.pdb
+C:\Adham\Adham Managment System\Project Business Library\bin\Debug\Project Data Layer.dll.config
+C:\Adham\Adham Managment System\Project Business Library\obj\Debug\Project Business Library.csproj.AssemblyReference.cache
+C:\Adham\Adham Managment System\Project Business Library\obj\Debug\Project Business Library.csproj.CoreCompileInputs.cache
+C:\Adham\Adham Managment System\Project Business Library\obj\Debug\Project .AA274CF3.Up2Date
+C:\Adham\Adham Managment System\Project Business Library\obj\Debug\Project Business Library.dll
+C:\Adham\Adham Managment System\Project Business Library\obj\Debug\Project Business Library.pdb
+C:\Adham\Adham Managment System\Project Business Library\bin\Debug\App.config
