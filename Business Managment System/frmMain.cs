@@ -43,5 +43,10 @@ namespace Projects_Managment_System
             frmAdd_Edit_Job frmAdd_Edit_Job = new frmAdd_Edit_Job();
             frmAdd_Edit_Job.ShowDialog();
         }
+
+        private void EmployeesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

@@ -46,9 +46,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Project Data Layer\Project Data Layer.csproj">
+    <ProjectReference Include="..\Project Data Layer\BMS.DAL.csproj">
       <Project>{94e4c03f-a307-468c-ac4c-501e58d1cda2}</Project>
-      <Name>Project Data Layer</Name>
+      <Name>BMS.DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

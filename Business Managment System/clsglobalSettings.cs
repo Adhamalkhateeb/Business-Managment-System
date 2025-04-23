@@ -5,14 +5,18 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
+using BMS.Entities;
+using System.Runtime.InteropServices;
 
 namespace Projects_Managment_System
 {
    public  class clsglobalSettings
     {
+        private static readonly string _connectionString =  ConfigReader.GetConnectionString();
         static public void AdjustGridDesign(DataGridView dataGridView)
         {
 
@@ -38,7 +42,7 @@ namespace Projects_Managment_System
         {
             try
             {
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Connection"].ConnectionString))
+                using (SqlConnection conn = new SqlConnection(_connectionString))
                 using (SqlCommand cmd = new SqlCommand("GetNextID", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;

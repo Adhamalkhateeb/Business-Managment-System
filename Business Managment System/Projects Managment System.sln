@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects Managment System", "Projects Managment System.csproj", "{ED5106F9-AA75-4039-96AD-C00E8C954579}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS.UI", "BMS.UI.csproj", "{ED5106F9-AA75-4039-96AD-C00E8C954579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Business Library", "..\Project Business Library\Project Business Library.csproj", "{FCD3371F-1C85-4A27-BFE7-A8604AB636A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS.BLL", "..\Project Business Library\BMS.BLL.csproj", "{FCD3371F-1C85-4A27-BFE7-A8604AB636A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Data Layer", "..\Project Data Layer\Project Data Layer.csproj", "{94E4C03F-A307-468C-AC4C-501E58D1CDA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS.DAL", "..\Project Data Layer\BMS.DAL.csproj", "{94E4C03F-A307-468C-AC4C-501E58D1CDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS.Entities", "..\BMS.Entities\BMS.Entities.csproj", "{522ED744-BB17-4927-9F0B-7A1DD9C24FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS.Utilities", "..\BMS.Common\BMS.Utilities.csproj", "{EC019F86-410F-4517-A937-3DA661883F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS.Test", "..\BMS.Test\BMS.Test.csproj", "{AE097DCE-4AB4-4E4C-9037-9FB6897E3D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{94E4C03F-A307-468C-AC4C-501E58D1CDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E4C03F-A307-468C-AC4C-501E58D1CDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E4C03F-A307-468C-AC4C-501E58D1CDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522ED744-BB17-4927-9F0B-7A1DD9C24FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522ED744-BB17-4927-9F0B-7A1DD9C24FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522ED744-BB17-4927-9F0B-7A1DD9C24FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522ED744-BB17-4927-9F0B-7A1DD9C24FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC019F86-410F-4517-A937-3DA661883F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC019F86-410F-4517-A937-3DA661883F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC019F86-410F-4517-A937-3DA661883F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC019F86-410F-4517-A937-3DA661883F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE097DCE-4AB4-4E4C-9037-9FB6897E3D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE097DCE-4AB4-4E4C-9037-9FB6897E3D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE097DCE-4AB4-4E4C-9037-9FB6897E3D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE097DCE-4AB4-4E4C-9037-9FB6897E3D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

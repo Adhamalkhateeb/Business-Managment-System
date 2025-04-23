@@ -298,9 +298,13 @@
     <None Include="Resources\supermaket.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Project Business Library\Project Business Library.csproj">
+    <ProjectReference Include="..\BMS.Common\BMS.Utilities.csproj">
+      <Project>{ec019f86-410f-4517-a937-3da661883f63}</Project>
+      <Name>BMS.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project Business Library\BMS.BLL.csproj">
       <Project>{fcd3371f-1c85-4a27-bfe7-a8604ab636a1}</Project>
-      <Name>Project Business Library</Name>
+      <Name>BMS.BLL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

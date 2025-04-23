@@ -26,7 +26,7 @@ public static class clsGlobalCrudOperations
     //);
 
 
-    private static readonly string _connectionString = ConfigurationManager.ConnectionStrings["Connection"].ConnectionString;
+    private static readonly string _connectionString = ConfigurationManager.ConnectionStrings["BMSConnectionString"].ConnectionString;
     private static readonly string _sourceName = "PMS";
 
 
