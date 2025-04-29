@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsGlobalCrudOperations.cs" />
+    <Compile Include="clsGlobaldataBase.cs" />
     <Compile Include="clsJobData.cs" />
     <Compile Include="DepartmentData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -16,33 +16,33 @@ namespace Project_Business_Library
         private enMode _Mode = enMode.AddNew;
         public int DepartmentID { get; set; }
         public string DepartmentName { get; set; }
-     
+        public string Description { get; set; }
         public int CreatedByUserID { get; set; }
         public DateTime CreatedDate { get; set; }
-        public int ModifiedByUserID { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public int? ModifiedByUserID { get; set; }
+        public DateTime? ModifiedDate { get; set; }
         public bool IsActive { get; set; }
 
         public Department()
         {
             DepartmentID = -1;
             DepartmentName = string.Empty;
-             CreatedByUserID = -1;
-           
-
-            ModifiedByUserID = 1;
+            Description = null;
+            CreatedByUserID = -1;
+            ModifiedByUserID = null;
             CreatedDate =DateTime.Now;
-            ModifiedDate = DateTime.Now;
+            ModifiedDate = null;
             IsActive = true;
 
             _Mode = enMode.AddNew;
 
         }
 
-        private Department(int departmentID, string departmentName,int createdByUserID, DateTime createdDate, int modifiedByUserID, DateTime modifiedDate, bool IsActive)
+        private Department(int departmentID, string departmentName,string Description,int createdByUserID, DateTime createdDate, int? modifiedByUserID, DateTime? modifiedDate, bool IsActive)
         {
             this.DepartmentID = departmentID;
             this.DepartmentName = departmentName;
+            this.Description = Description;
             this.CreatedByUserID = createdByUserID;
             this.CreatedDate = createdDate;
             this.ModifiedByUserID = modifiedByUserID;
@@ -64,12 +64,13 @@ namespace Project_Business_Library
             if(result != null)
             {
                 return new Department(
-                      (int)result["DepartmentId"],
+                      (int)result["DepartmentID"],
                       result["DepartmentName"].ToString(),
+                      result["Description"] == null ? null : result["Description"].ToString(),
                       (int)result["CreatedBy"],
-                      (DateTime)result["CreatedDate"],
-                      (int)result["ModifiedBy"],  
-                      (DateTime)result["ModifiedDate"],
+                      (DateTime)result["CreationDate"],
+                      result["UpdatedBy"] == null ? (int?)null : (int?)result["UpdatedBy"],
+                     result["UpdatedDate"] == null ? (DateTime?)null : (DateTime?)result["UpdatedDate"],
                       (bool)result["IsActive"]) ;                   
             }
             else
@@ -87,12 +88,13 @@ namespace Project_Business_Library
             if (result != null)
             {
                 return new Department(
-                      (int)result["DepartmentId"],
+                      (int)result["DepartmentID"],
                       result["DepartmentName"].ToString(),
+                      result["Description"] == null ? null : result["Description"].ToString(),
                       (int)result["CreatedBy"],
-                      (DateTime)result["CreatedDate"],
-                      (int)result["ModifiedBy"],
-                      (DateTime)result["ModifiedDate"],
+                      (DateTime)result["CreationDate"],
+                      result["UpdatedBy"] == null ? (int?)null : (int?)result["UpdatedBy"],
+                     result["UpdatedDate"] == null ? (DateTime?)null : (DateTime?)result["UpdatedDate"],
                       (bool)result["IsActive"]);
             }
             else
@@ -104,20 +106,20 @@ namespace Project_Business_Library
 
         private async Task <bool> AddDepartment()
         {
-            return  (await clsDepartmentData.AddDepartmentASync(this.DepartmentName, this.CreatedByUserID, this.DepartmentID,DateTime.Now));
+            return  (await clsDepartmentData.AddDepartmentASync(this.DepartmentName,this.Description , this.CreatedByUserID)) != -1;
         }
 
         private async Task<bool> UpdateDepartment()
         {
-            return  await clsDepartmentData.UpdateDepartmentAsync(this.DepartmentID, this.DepartmentName,this.ModifiedByUserID, this.IsActive,DateTime.Now);
+            return  await clsDepartmentData.UpdateDepartmentAsync(this.DepartmentID, this.Description,this.DepartmentName,this.ModifiedByUserID);
         }
 
 
 
-       public  async Task<bool> DeactiveteDepartment()
+       public  async Task<bool> DeleteDepartment()
         {
             
-            return await clsDepartmentData.DeleteDepartmentAsync(this.DepartmentID,this.ModifiedByUserID,DateTime.Now);
+            return await clsDepartmentData.DeleteDepartmentAsync(this.DepartmentID,this.ModifiedByUserID);
         }
 
        
@@ -144,5 +146,10 @@ namespace Project_Business_Library
         }
 
 
+
+        public override string ToString()
+        {
+            return DepartmentName;
+        }
     }
 }
